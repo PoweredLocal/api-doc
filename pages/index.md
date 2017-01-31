@@ -2,9 +2,7 @@
 title: "Welcome to our API documentation"
 ---
 
-Have fun and develop something useful!
-
-Our API url is:
+Have fun and develop something useful! Our API url is:
 
 https://api.poweredlocal.com
 
@@ -12,6 +10,8 @@ https://api.poweredlocal.com
 
 Most of our endpoints follow RESTful convention. Choose a resource in the left menu to get
 detailed information about available actions.
+
+This documentation mini-website is open-source, you can see it on [GitHub](https://github.com/PoweredLocal/api-doc)
 
 ### Authentication
 

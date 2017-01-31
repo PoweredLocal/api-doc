@@ -51,7 +51,7 @@ module.exports = React.createClass({
 
     return (
         <div className="container">
-            <div className="row">
+            <div className="row" style={{paddingTop: '10px'}}>
                 <div className="col-md-3">
 
                     <Link className="logo" to={prefixLink('/')}>
@@ -67,7 +67,7 @@ module.exports = React.createClass({
                     { this.props.children }
                 </div>
 
-                <footer className="footer col-md-12">
+                <footer className="footer col-md-12 text-center" style={{padding: '20px 10px 10px 10px'}}>
                     2017 © PoweredLocal. Made in Melbourne. Powered by GatsbyJs.
                 </footer>
 
