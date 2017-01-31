@@ -1,0 +1,13 @@
+siteTitle="PoweredLocal API"
+baseColor = "#884499"
+linkPrefix = ""
+apiUrl="https://api.poweredlocal.com/v1"
+docPages = [
+  "/",
+  "/v1/devices/",
+  "/v1/networks/",
+  "/v1/pages/",
+  "/v1/visits/",
+  "/v1/visitors/",
+  "/v1/uploads/"
+]
