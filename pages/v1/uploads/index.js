@@ -8,16 +8,10 @@ exports.data = {
     title: 'Uploads',
 }
 
-const Page = React.createClass({
-    render () {
-        const page = this.props.route.page
-
-        return (
-            <DocumentTitle title={`${page.data.title} | ${config.siteTitle}`}>
-                <Swagger documentation={documentation} prefix={config.apiUrl} />
-            </DocumentTitle>
-        )
-    },
-})
+const Page = (props) => (
+    <DocumentTitle title={`${props.route.page.data.title} | ${config.siteTitle}`}>
+        <Swagger documentation={documentation} prefix={config.apiUrl} />
+    </DocumentTitle>
+)
 
 export default Page
