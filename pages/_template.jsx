@@ -68,7 +68,7 @@ module.exports = React.createClass({
                 </div>
 
                 <footer className="footer col-md-12 text-center" style={{padding: '20px 10px 10px 10px'}}>
-                    2017 © PoweredLocal. Made in Melbourne. Powered by GatsbyJs.
+                    <script type="text/javascript"> document.write(new Date().getFullYear());</script> © PoweredLocal. Made in Melbourne. Powered by GatsbyJs.
                 </footer>
 
             </div>
